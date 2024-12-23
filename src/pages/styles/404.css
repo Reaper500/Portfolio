@@ -1,0 +1,51 @@
+.not-found {
+	overflow: hidden;
+	height: 100vh;
+}
+
+.notfound-logo-container {
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
+}
+
+.notfound-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+	z-index: 999;
+}
+.notfound-container {
+	height: calc(100dvh - 55px);
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.notfound-title {
+	font-size: 3rem;
+	font-weight: bold;
+}
+.not-found-message {
+	margin: 1rem 0;
+}
+.not-found-link {
+	text-decoration: none;
+	padding: 1rem;
+	display: inline-block;
+	border-radius: 20px;
+	background: black;
+	color: white;
+	font-weight: 500;
+	transition: all 0.35s ease-in-out;
+}
+.not-found-link:hover {
+	background: green;
+}
+@media screen and (max-width: 900px) {
+	.notfound-title {
+		font-size: 2.3rem;
+	}
+}
