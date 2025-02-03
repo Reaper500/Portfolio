@@ -19,7 +19,7 @@ const INFO = {
 	homepage: {
 		title: "Frontend Engineer and Tech Lover.",
 		description:
-			"Hi there! I am Kibang Virtus, a dedicated front-end engineer with a deep passion for crafting beautiful and functional web experiences. My journey into software engineering began with a fascination for technology and design, which led me to explore the endless possibilities in web development.",
+			"Hi there! I am Kibang Virtue, a dedicated front-end engineer with a deep passion for crafting beautiful and functional web experiences. My journey into software engineering began with a fascination for technology and design, which led me to explore the endless possibilities in web development.",
 	},
 
 	about: {
